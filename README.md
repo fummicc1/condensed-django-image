@@ -22,7 +22,7 @@ docker build -t sample_multistage:0.1 .
 以下のコマンドで docker container を生成します。
 
 ```sh
-docker run --name anime_app \
+docker run --name sample_multistage \
 -itd -p 5432:5432 -p 8000:8000 \
 -v db_data:/var/lib/postgresql/data \
 79d339cacea9
